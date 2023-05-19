@@ -1,0 +1,52 @@
+.logo {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.inputContainer {
+  position: relative;
+  width: fit-content;
+  padding-left: 3rem;
+}
+
+.searchIcon {
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  top: 34%;
+  left: 6%;
+}
+
+.cartContainer {
+  position: relative;
+}
+
+.cartLogo {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.cartCount {
+  position: absolute;
+  top: -40%;
+  left: 110%;
+  background-color: #ff2a26;
+  color: white;
+  width: 20px;
+  height: 20px;
+  padding-bottom: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  border-radius: 100%;
+  text-align: center;
+}
